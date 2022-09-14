@@ -1,0 +1,31 @@
+{
+  "name": "oro-mssql",
+  "version": "1.0.0",
+  "description": "Class OroMSSql is a wrapper of node-mssql to use async/await",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "mssql",
+    "promise",
+    "async/await"
+  ],
+  "author": "Carlos Oropesa <carlos@oropensando.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oropesa/oro-mssql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oropesa/oro-mssql/issues"
+  },
+  "homepage": "https://github.com/oropesa/oro-mssql#readme",
+  "dependencies": {
+    "mssql": "^9.0.1",
+    "oro-functions": "^1.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
